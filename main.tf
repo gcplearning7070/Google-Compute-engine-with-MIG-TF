@@ -78,8 +78,8 @@ resource "google_compute_instance_template" "oracle_template" {
   }
 
   metadata = {
-    ssh-keys               = var.ssh_keys != "" ? var.ssh_keys : null
-    startup-script         = file("${path.module}/startup-script.sh")
+    ssh-keys       = var.ssh_keys != "" ? var.ssh_keys : null
+    startup-script = file("${path.module}/startup-script.sh")
   }
 
   lifecycle {
