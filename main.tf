@@ -50,7 +50,7 @@ resource "google_compute_firewall" "allow_http" {
 # Get the latest Oracle Linux image
 data "google_compute_image" "oracle_linux" {
   family  = "oracle-linux-8"
-  project = "cloud-infrastructure-services"
+  project = "oracle-linux-cloud"
 }
 
 # Create an instance template
