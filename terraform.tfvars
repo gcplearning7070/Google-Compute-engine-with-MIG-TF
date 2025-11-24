@@ -1,5 +1,5 @@
 # GCP Project Configuration
-project_id = "gcp-terraform-demo-474514"
+project_id = "gcp-terraform-478512"
 region     = "us-central1"
 zone       = "us-central1-a"
 
