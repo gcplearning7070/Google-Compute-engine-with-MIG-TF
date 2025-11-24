@@ -30,7 +30,7 @@ variable "subnet_cidr" {
 variable "machine_type" {
   description = "Machine type for the instances"
   type        = string
-  default     = "e2-medium"
+  default     = "e2-micro"
 }
 
 variable "disk_size_gb" {
