@@ -10,7 +10,7 @@ name_prefix = "oracle-linux"
 subnet_cidr = "10.0.1.0/24"
 
 # Instance Configuration
-machine_type   = "e2-medium"
+machine_type   = "e2-micro"
 disk_size_gb   = 20
 instance_count = 5
 
